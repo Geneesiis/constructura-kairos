@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Colores personalizados de tu marca */
+@theme {
+  --color-brand-dark: #0f172a;
+  --color-brand-primary: #ea580c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9fafb; /* gray-50 */
+  color: #0f172a; /* slate-900 */
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
