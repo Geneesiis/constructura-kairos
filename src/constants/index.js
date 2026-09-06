@@ -11,7 +11,7 @@ export const PROJECTS = [
       "/img/1.webp",
       "/img/1.2.webp",
     ],
-    description: "Diseño, fabricación y montaje de cierre perimetral mixto para fachada principal. Incluye estructura en perfiles de acero con listones de madera tratada y la fabricación a medida de un portón de corredera vehicular de alta resistencia. Un proyecto pensado para entregar máxima seguridad y funcionalidad, manteniendo una estética cálida y moderna desde el exterior."
+    description: "Diseño, fabricación y montaje de cierre perimetral mixto para fachada principal. Incluye estructura en perfiles de acero con listones de madera tratada y la fabricación a medida de un portón de corredera vehicular, según las especificaciones definidas para el proyecto."
   },
   {
     id: 2,
@@ -37,6 +37,6 @@ export const PROJECTS = [
       "/img/3.webp",
       "/img/3.2.webp"
     ],
-    description: "Acondicionamiento de espacio Construcción integral desde cero de una casa habitacional de 60 metros cuadrados. El proyecto contempla sólidas fundaciones de hormigón, estructura con revestimiento exterior tipo siding y terminaciones de hojalatería para aguas lluvia. Destaca la instalación de ventanales en aluminio, incluyendo un diseño 'bow window' que amplía el espacio interior y maximiza la entrada de luz natural, entregando una obra de alta durabilidad y excelente aislación. cumpliendo estrictas normativas sanitarias. Sistemas de climatización independientes, revestimientos lavables y diseño de iluminación técnica."
+    description: "Construcción integral desde cero de una casa habitacional de 60 metros cuadrados. El proyecto contempla fundaciones de hormigón, estructura con revestimiento exterior tipo siding y terminaciones de hojalatería para aguas lluvia. Incluye ventanales de aluminio y un diseño 'bow window' para ampliar el espacio interior y favorecer la entrada de luz natural, conforme a las especificaciones del proyecto."
   }
 ];

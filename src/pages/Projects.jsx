@@ -111,7 +111,7 @@ const PORTFOLIO = [
       "/img/1.webp",
       "/img/1.2.webp",
     ],
-    description: "Diseño, fabricación y montaje de cierre perimetral mixto para fachada principal. Incluye estructura en perfiles de acero con listones de madera tratada y la fabricación a medida de un portón de corredera vehicular de alta resistencia. Un proyecto pensado para entregar máxima seguridad y funcionalidad, manteniendo una estética cálida y moderna desde el exterior."
+    description: "Diseño, fabricación y montaje de cierre perimetral mixto para fachada principal. Incluye estructura en perfiles de acero con listones de madera tratada y la fabricación a medida de un portón de corredera vehicular, según las especificaciones definidas para el proyecto."
   },
   {
     id: 2,
@@ -137,7 +137,7 @@ const PORTFOLIO = [
       "/img/3.webp",
       "/img/3.2.webp"
     ],
-    description: "Construcción integral desde cero de una casa habitacional de 60 metros cuadrados. El proyecto contempla sólidas fundaciones de hormigón, estructura con revestimiento exterior tipo siding y terminaciones de hojalatería para aguas lluvia. Destaca la instalación de ventanales en aluminio, incluyendo un diseño 'bow window' que amplía el espacio interior y maximiza la entrada de luz natural, entregando una obra de alta durabilidad y excelente aislación."
+    description: "Construcción integral desde cero de una casa habitacional de 60 metros cuadrados. El proyecto contempla fundaciones de hormigón, estructura con revestimiento exterior tipo siding y terminaciones de hojalatería para aguas lluvia. Incluye ventanales de aluminio y un diseño 'bow window' para ampliar el espacio interior y favorecer la entrada de luz natural, conforme a las especificaciones del proyecto."
   },
   {
     id: 4,
@@ -179,7 +179,7 @@ const PORTFOLIO = [
       "/img/6.3.webp",
       "/img/6.4.webp"
     ],
-    description: "Construcción de quincho techado con vigas de madera a la vista y revestimiento integral de piedra. El espacio incluye parrilla a medida con espiedo, campana de extracción, horno empotrado, lavacopas y un amplio mesón en obra. Se finalizó con piso cerámico de alta resistencia y un diseño de iluminación cálida, logrando un ambiente rústico y acogedor."
+    description: "Construcción de quincho techado con vigas de madera a la vista y revestimiento integral de piedra. El espacio incluye parrilla a medida con espiedo, campana de extracción, horno empotrado, lavacopas y un amplio mesón en obra. Se finalizó con piso cerámico apto para el uso definido en el proyecto y un diseño de iluminación cálida."
   }
 ];
 
@@ -204,7 +204,7 @@ const Projects = () => {
           Obras <span className="italic text-white/70">Seleccionadas.</span>
         </h1>
         <p className="text-white/60 max-w-xl text-sm md:text-base leading-relaxed">
-          Cada proyecto es un testimonio de nuestra obsesión por el detalle, el rigor técnico y el cumplimiento estricto de los plazos acordados.
+          Cada proyecto es un testimonio de nuestra atención al detalle, el rigor técnico y el seguimiento de los plazos acordados.
         </p>
       </section>
 

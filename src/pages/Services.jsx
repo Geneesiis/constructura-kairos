@@ -73,10 +73,10 @@ const Services = () => {
           </div>
           <div className="w-full md:w-1/2 flex flex-col justify-end">
             <p className="text-white/80 text-base md:text-lg leading-relaxed mb-6">
-              Somos una empresa especializada en la ejecución de proyectos de construcción, estructuras metálicas y remodelaciones de alto estándar en toda la Región Metropolitana.
+              Somos una empresa especializada en la ejecución de proyectos de construcción, estructuras metálicas y remodelaciones en la Región Metropolitana.
             </p>
             <p className="text-white/50 text-sm leading-relaxed">
-              Transformamos tus ideas en obras sólidas y duraderas, destacando por nuestra rigurosidad técnica, el cumplimiento estricto de los plazos acordados y un diseño impecable desde las fundaciones hasta las terminaciones.
+              Transformamos tus ideas en obras sólidas y duraderas, destacando por nuestra rigurosidad técnica, la planificación y el seguimiento de los plazos acordados, y un diseño impecable desde las fundaciones hasta las terminaciones.
             </p>
           </div>
         </div>
@@ -100,9 +100,9 @@ const Services = () => {
 
           {[
             { step: "01", title: "Visita y Evaluación", desc: "Inspeccionamos el terreno, tomamos medidas exactas y entendemos tus necesidades a fondo." },
-            { step: "02", title: "Propuesta Técnica", desc: "Entregamos un presupuesto transparente, detallado por partidas, sin sorpresas ni costos ocultos." },
-            { step: "03", title: "Ejecución de Obra", desc: "Materializamos el proyecto con supervisión constante, respetando normativas y plazos acordados." },
-            { step: "04", title: "Entrega y Garantía", desc: "Revisión final conjunta y entrega del espacio limpio, respaldado por nuestra garantía de calidad." }
+            { step: "02", title: "Propuesta Técnica", desc: "Entregamos una cotización detallada por partidas, con sus supuestos, exclusiones y costos adicionales identificados." },
+            { step: "03", title: "Ejecución de Obra", desc: "Materializamos el proyecto con seguimiento de avance y conforme a las condiciones técnicas y normativas aplicables." },
+            { step: "04", title: "Entrega y Garantía", desc: "Revisión final conjunta y entrega del espacio limpio, con la garantía contractual informada en la cotización." }
           ].map((item, i) => (
             <div key={i} className="relative z-10 group">
               <div className="w-12 h-12 rounded-full bg-black border border-white/20 flex items-center justify-center font-serif text-lg mb-6 group-hover:border-white group-hover:bg-white group-hover:text-black transition-all duration-300">
@@ -169,7 +169,7 @@ const Services = () => {
             </div>
             <h3 className="text-3xl font-serif mb-4 tracking-wide">Metalmecánica</h3>
             <p className="text-white/60 text-sm leading-relaxed mb-8 flex-grow">
-              Fabricación e instalación a medida. Desarrollamos estructuras soportantes, galpones y sistemas de seguridad robustos y duraderos.
+              Fabricación e instalación a medida de estructuras soportantes, galpones y sistemas de seguridad, según las especificaciones definidas para cada proyecto.
             </p>
             
             <div className="space-y-4 border-t border-white/10 pt-6 mb-8">

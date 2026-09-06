@@ -49,20 +49,20 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-0 divide-y md:divide-y-0 md:divide-x divide-white/10">
             <div className="pt-4 md:pt-0 md:px-8 text-center md:text-left flex flex-col justify-center">
-              <span className="text-3xl font-serif text-white block mb-1">+10</span>
-              <span className="text-[10px] uppercase tracking-widest text-white/60 font-bold">Años de Experiencia</span>
+              <span className="text-3xl font-serif text-white block mb-1">01</span>
+              <span className="text-[10px] uppercase tracking-widest text-white/60 font-bold">Evaluación técnica</span>
             </div>
             <div className="pt-4 md:pt-0 md:px-8 text-center md:text-left flex flex-col justify-center">
-              <span className="text-3xl font-serif text-white block mb-1">+150</span>
-              <span className="text-[10px] uppercase tracking-widest text-white/60 font-bold">Obras Ejecutadas</span>
+              <span className="text-3xl font-serif text-white block mb-1">02</span>
+              <span className="text-[10px] uppercase tracking-widest text-white/60 font-bold">Propuesta detallada</span>
             </div>
             <div className="pt-4 md:pt-0 md:px-8 text-center md:text-left flex flex-col justify-center">
-              <span className="text-3xl font-serif text-white block mb-1">100%</span>
-              <span className="text-[10px] uppercase tracking-widest text-white/60 font-bold">Garantía Técnica</span>
+              <span className="text-3xl font-serif text-white block mb-1">OK</span>
+              <span className="text-[10px] uppercase tracking-widest text-white/60 font-bold">Respaldo técnico</span>
             </div>
             <div className="pt-4 md:pt-0 md:px-8 text-center md:text-left flex flex-col justify-center">
               <span className="text-3xl font-serif text-white block mb-1">RM</span>
-              <span className="text-[10px] uppercase tracking-widest text-white/60 font-bold">Cobertura Total</span>
+              <span className="text-[10px] uppercase tracking-widest text-white/60 font-bold">Región Metropolitana</span>
             </div>
           </div>
         </div>

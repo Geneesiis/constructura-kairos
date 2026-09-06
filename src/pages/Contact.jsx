@@ -1,6 +1,7 @@
 // src/pages/Contact.jsx
 import { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 import { BRAND } from '../constants/brand';
 
 const Contact = () => {
@@ -11,6 +12,7 @@ const Contact = () => {
     location: '',
     message: ''
   });
+  const [privacyAccepted, setPrivacyAccepted] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,6 +24,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!privacyAccepted) return;
     const waMessage = `Hola Constructora Kairos, mi nombre es ${formData.name}. Les escribo desde ${formData.location}. Mi teléfono es ${formData.phone}. Les comento sobre mi proyecto: ${formData.message}`;
     window.open(`https://wa.me/${BRAND.contact.phoneRaw}?text=${encodeURIComponent(waMessage)}`, '_blank');
     setFormData({
@@ -30,6 +33,7 @@ const Contact = () => {
       location: '',
       message: ''
     });
+    setPrivacyAccepted(false);
   };
 
   return (
@@ -50,7 +54,7 @@ const Contact = () => {
             Hablemos de tu <br className="hidden md:block" /><span className="italic text-white/50">Proyecto.</span>
           </h1>
           <p className="text-white/60 max-w-xl text-sm md:text-base leading-relaxed">
-            Solicita una visita a terreno. Evaluamos tu espacio, tomamos medidas exactas y te entregamos un presupuesto transparente y sin sorpresas.
+            Solicita una visita a terreno. Evaluamos tu espacio, tomamos medidas y te entregamos una cotización detallada según el alcance definido.
           </p>
         </div>
 
@@ -173,6 +177,20 @@ const Contact = () => {
                 ></textarea>
               </div>
 
+              <label htmlFor="privacyAccepted" className="flex items-start gap-3 text-xs text-white/60 leading-relaxed cursor-pointer">
+                <input
+                  type="checkbox"
+                  id="privacyAccepted"
+                  checked={privacyAccepted}
+                  onChange={(e) => setPrivacyAccepted(e.target.checked)}
+                  className="mt-1 accent-white"
+                  required
+                />
+                <span>
+                  Autorizo el tratamiento de mis datos para gestionar esta solicitud y el envío del mensaje a WhatsApp. Leí la <Link to="/privacidad" className="text-white underline underline-offset-4">política de privacidad</Link>.
+                </span>
+              </label>
+
               {/* Botón Enviar */}
               <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-6">
                 <button 
@@ -182,7 +200,7 @@ const Contact = () => {
                   Enviar para Cotizar
                 </button>
                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/30 text-center sm:text-right">
-                  Respondemos en menos de 24 horas.
+                  Confirmamos la recepción dentro de 3 días hábiles.
                 </p>
               </div>
             </form>

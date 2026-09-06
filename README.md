@@ -145,6 +145,8 @@ wrangler pages deploy dist
 - [ ] Configurar `public/_redirects` con `/* /index.html 200` para SPA.
 - [ ] Conectar el repositorio a Cloudflare Pages (o subir `dist/` manualmente).
 - [ ] Revisar y configurar variables de entorno si se incorporan servicios externos.
+- [ ] Activar HTTPS para el dominio personalizado y configurar la redirección HTTP → HTTPS (Always Use HTTPS).
+- [ ] Verificar en producción que el navegador muestre el certificado válido y la conexión segura antes de habilitar formularios.
 - [ ] Verificar el dominio personalizado y certificado SSL en Cloudflare.
 
 ## Buenas prácticas y recomendaciones

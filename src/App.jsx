@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
+import TermsAndConditions from './pages/TermsAndConditions';
+import Privacy from './pages/Privacy';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
             <Route path="/proyectos" element={<Projects />} />
             <Route path="/servicios" element={<Services />} />
             <Route path="/contacto" element={<Contact />} />
+            <Route path="/terminos-y-condiciones" element={<TermsAndConditions />} />
+            <Route path="/privacidad" element={<Privacy />} />
             
             {/* RUTA FALLBACK (404): Atrapa cualquier URL que no exista */}
             <Route path="*" element={<NotFound />} />
