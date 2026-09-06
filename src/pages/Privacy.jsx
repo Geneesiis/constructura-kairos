@@ -78,7 +78,7 @@ const Privacy = () => {
           <section>
             <h2 className="text-2xl md:text-3xl font-serif text-white mb-4">8. Cookies y medición</h2>
             <p>
-              Este sitio no integra actualmente Google Analytics, píxeles publicitarios, herramientas de seguimiento ni cookies propias destinadas a crear perfiles o medir campañas. Por esa razón no se muestra un banner de consentimiento para cookies de medición.
+              Este sitio no integra Google Analytics, píxeles publicitarios ni herramientas propias destinadas a crear perfiles o medir campañas. Cloudflare Pages puede inyectar Cloudflare Pages Analytics para obtener métricas agregadas de funcionamiento y visitas. Esta herramienta es administrada por Cloudflare y debe revisarse en la configuración del proyecto y en sus condiciones vigentes.
             </p>
             <p className="mt-4">
               La página de contacto incorpora un mapa de Google Maps y los enlaces de contacto pueden abrir WhatsApp o Instagram. Esos servicios externos pueden procesar información técnica conforme a sus propias políticas y condiciones cuando interactúas con ellos. Si en el futuro incorporamos Analytics, publicidad, perfiles de usuario u otra tecnología no esencial, actualizaremos esta política y habilitaremos el mecanismo de información y consentimiento que corresponda antes de activarla.
